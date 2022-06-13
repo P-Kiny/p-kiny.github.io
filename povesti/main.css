@@ -1,0 +1,92 @@
+body {
+    margin: 0em;
+    font-family: 'Ubuntu Mono', monospace;
+    border: 3em rgba(0, 0, 0, 0.329);
+    border-style: none solid;
+    height: 100%;
+    color: rgba(0, 0, 0, 0.329);
+}
+
+a {
+    color: rgba(0, 0, 0, 0.658);
+    text-decoration: none;
+}
+.nav {
+    background-color: rgb(236, 226, 216);
+    height: 4em;
+    text-align: center;
+}
+
+.nav a {
+    padding: 1pc;
+    font-size: larger;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.329);
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+.hb1 {
+    height: 2.5px;
+}
+
+.hero {
+    background-color: rgb(250, 248, 245);
+    padding: 5em;
+    text-align: center;
+}
+
+.hero h1 {
+    flex: 10em;
+    font-size: 2rem;
+}
+
+.hero b {
+    text-decoration: underline;
+}
+
+.lb1 {
+    background-color: rgb(236, 226, 216);
+    height: 2em;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+.text a {
+    color: rgba(0, 0, 0, 0.658);
+}
+
+.footer {
+    height: 50px;
+    padding-top: 10px;
+    background-color: rgb(236, 226, 216);
+    font-size: smaller;
+    text-align: center;
+  }
+
+.hb2 {
+    height: 537px;
+}
+
+.row {
+    display: flex;
+  }
+  
+.column {
+    flex: 50%;
+    margin-left: 1em;
+}
+
+.column h1 {
+    text-decoration: underline;
+}
+/* .hero h1 {
+    test 1
+
+    padding-left: 47em;
+    padding-top: 5.5em;
+} */
